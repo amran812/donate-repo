@@ -3,6 +3,7 @@
   padding: 0;
   font-family: Inter;
   box-sizing: border-box;
+  border: 5px solid red;
 
 }
 
@@ -21,7 +22,6 @@
   height: 60%;
   width: 60%;
   position: absolute;
-  border: 2px solid rgb(238, 13, 43);
   border-radius: 8px;
   margin: auto;
   top: 0;
@@ -82,7 +82,7 @@
 
 }
 
-/* donate taka */
+/* donate taka start */
 
 .donate-taka {
   margin-top: 20px;
@@ -97,14 +97,192 @@
   padding: 43px;
   width: 135px;
   height: 123px;
-  background-color:gray;
-  opacity:0.8;
-  border-radius: 10px;
-  color:black;
-}
-.orange{
-  border: 3px solid red;
-  color:#f10c0c;
   background-color: gray;
-  
+  opacity: 0.8;
+  border-radius: 10px;
+  color: black;
 }
+
+.orange {
+  border: 3px solid red;
+  color: #f10c0c;
+  background-color: gray;
+
+}
+
+/* donate taka end */
+
+
+/* donate search btn start */
+.donate-search {
+  margin: 30px 150px;
+}
+
+.search {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #B3B3B3;
+  margin-left: 40%;
+}
+
+hr {
+  border: 1px solid #DADADA;
+}
+
+.donate-search-btn {
+  width: 160px;
+  height: 56px;
+  margin-left: 40%;
+  margin-top: 15px;
+  background: #FF5959;
+  border-radius: 5px;
+  border: none;
+}
+
+/* donate search btn end */
+
+/* donate plane start */
+.plane {
+  width: 50%;
+  height: 135px;
+  margin: 130px auto 50px;
+  position: relative;
+}
+
+.plane-head {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 54px;
+  text-align: center;
+  color: #121212;
+
+}
+
+.plane-para {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #707070;
+
+}
+
+/* donate plane end */
+
+/* donate plane list start */
+.plane-list {
+  display: flex;
+  width: 1000px;
+  margin-left: 150px;
+  justify-content: space-around;
+
+
+
+}
+
+.list {
+  border-radius: 5px;
+  border: 1px solid rgba(120, 120, 12, 0.5);
+  width: 300px;
+  height: 200px;
+  background-color: #FF5959;
+  padding: 15px;
+
+}
+
+.one-list {
+
+  background: rgba(79, 157, 166, 0.1);
+}
+
+.two-list {
+  background: rgba(255, 89, 89, 0.1);
+}
+
+.three-list {
+  background: #b48484c5;
+}
+
+.list-img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+
+.list-h4 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+/* donate plane list end */
+
+
+
+/* their want to help you start */
+.their-want-help {
+  display: flex;
+  margin-top: 50px;
+  height: 400px;
+  width: 1100px;
+  margin-left: 130px;
+  box-sizing: border-box;
+
+}
+.help-list {
+  margin: 50px 50px 50px;
+  width: 400px;
+  height: 300px;
+  box-sizing: border-box;
+}
+.help-img{
+  box-sizing: border-box;
+  height: 400px;
+  width:700px;
+  overflow: hidden;
+  background-size: cover;
+  background-image: url(images/donation11.jpg);
+}
+
+.help-head {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  margin-bottom: 10px;
+
+}
+
+.help-para {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.help-btn {
+  margin-top: 10px;
+  padding: 16px;
+  background-color: orangered;
+  border: 0;
+}
+
+/* their want to help you start*/
+
+/* they survive start */
+.they-survive{
+  display: flex;
+  height: 500px;
+  width: 1100px;
+  box-sizing: border-box;
+  margin-top:50px;
+  margin-right: 120px;
+  margin-left:120px;
+}
+.survive-img{
+  box-sizing: border-box;
+  width: 700px;
+  height:500px ;
+  overflow:hidden;
+}
+/* they survive end */
